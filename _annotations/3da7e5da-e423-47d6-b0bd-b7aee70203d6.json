@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008/canvas/37"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "A guy is holding a bird",
+            "purpose": "commenting",
+            "creator": {
+                "id": "RuthIngs",
+                "name": "RuthIngs"
+            },
+            "created": "2023-11-14T11:38:25.830Z",
+            "modified": "2023-11-14T11:38:30.680Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008/canvas/37",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1401.3135986328125,50.84745788574219,1466.1016845703125,584.7457427978516"
+        }
+    },
+    "id": "3da7e5da-e423-47d6-b0bd-b7aee70203d6.json",
+    "motivation": "commenting"
+}
