@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008/canvas/37"
+order: 6
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Sexual assault",
+            "purpose": "commenting",
+            "creator": {
+                "id": "RuthIngs",
+                "name": "RuthIngs"
+            },
+            "created": "2023-11-14T11:44:26.783Z",
+            "modified": "2023-11-14T11:44:29.932Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008/canvas/37",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2333.51708984375,4567.79638671875,779.660888671875,805.0849609375"
+        }
+    },
+    "id": "481bfb16-47a1-4469-a0f3-0115cb1dfe39.json",
+    "motivation": "commenting"
+}
