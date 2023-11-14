@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008/canvas/37"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "More birds - they really love birds",
+            "purpose": "commenting",
+            "creator": {
+                "id": "RuthIngs",
+                "name": "RuthIngs"
+            },
+            "created": "2023-11-14T11:41:33.015Z",
+            "modified": "2023-11-14T11:41:42.457Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008/canvas/37",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=782.6695556640625,1864.40673828125,2627.1187744140625,1305.084716796875"
+        }
+    },
+    "id": "4d19a9fa-6104-421d-a7b9-33195e4c1858.json",
+    "motivation": "commenting"
+}
