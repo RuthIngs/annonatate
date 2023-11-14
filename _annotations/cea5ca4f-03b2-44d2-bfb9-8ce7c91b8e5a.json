@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008/canvas/37"
+order: 5
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "What.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "RuthIngs",
+                "name": "RuthIngs"
+            },
+            "created": "2023-11-14T11:42:06.303Z",
+            "modified": "2023-11-14T11:42:07.494Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00008/canvas/37",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=782.6695556640625,4059.322021484375,864.40673828125,432.203369140625"
+        }
+    },
+    "id": "cea5ca4f-03b2-44d2-bfb9-8ce7c91b8e5a.json",
+    "motivation": "commenting"
+}
